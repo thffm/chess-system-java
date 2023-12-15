@@ -1,5 +1,11 @@
+import boardgame.Positon;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello worlds!");
+
+        Positon pos = new Positon(3,5);
+        System.out.print(pos);
+
+
     }
 }
